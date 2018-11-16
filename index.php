@@ -1,1 +1,1 @@
-<?php header( 'Location: page/register.hlml' );?>
+<?php header( 'Location: page/register.html' );?>
