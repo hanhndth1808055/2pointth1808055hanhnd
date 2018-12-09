@@ -43,7 +43,7 @@ function doLogin() {
             }
         }
     };
-    xhr.open('POST', 'https://2-dot-backup-server-001.appspot.com/_api/v2/members/authentication', true);
+    xhr.open('POST', 'https://2-dot-backup-server-002.appspot.com/_api/v2/members/authentication', true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(sendData);
 }
