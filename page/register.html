@@ -5,77 +5,124 @@
     <title>Register-Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/register-style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
-<div class="header col-12 col-s-12 row">
-    <div class="logo col-2 col-s-0">
-        <img src="https://www.logoarena.com/contestimages/public_new/6319/7343_1443612936_musicislife03.jpg" alt="logo">
+<div class="page-wrap">
+    <div class="header row">
+        <div class="logo col-1 col-s-1"><img class="col-12 col-s-12"
+                                             src="../img/logo.png"
+                                             alt="logo"></div>
+        <div class="navigation col-11 col-s-11">
+            <span class="navigation-item col-2 col-s-2"><a class="col-10 col-s-10"
+                                                           href="register.html">Register</a></span>
+            <span class="navigation-item col-2 col-s-2"><a class="col-10 col-s-10" href="login.html">Login</a></span>
+            <span class="navigation-item col-3 col-s-3"><a class="col-10 col-s-10"
+                                                           href="create-song.html">Create song</a></span>
+            <span class="navigation-item col-3 col-s-3"><a class="col-10 col-s-10"
+                                                           href="latest-song.html">Latest song</a></span>
+            <span class="navigation-item col-2 col-s-2"><a class="col-10 col-s-10"
+                                                           href="my-song.html">My songs</a></span>
+        </div>
     </div>
-    <div class="banner col-s-10">
-        <img src="http://img03.deviantart.net/98a9/i/2009/339/c/b/urban_music_daily_banner_by_dyna_mic.png"
-             alt="banner">
+    <div class="body col-12 col-s-12 row">
+        <div class="main-content col-12 col-s-12">
+            <div class="headline col-12 col-s-12">
+                <h1><i class="fas fa-music"></i> NOT YET A MEMBER? REGISTER HERE <i class="fas fa-music"></i></h1>
+            </div>
+            <div class="col-12 col-s-12">
+                <div class="empty-col col-2 col-s-2"></div>
+                <div class="wrap-song col-8 col-s-8">
+                    <div class="empty-col col-1 col-s-1"></div>
+                    <div class="register-area col-10 col-s-10">
+                        <form action="" method="post" name="register-box">
+                            <div class="row">
+                                <div class="label col-4 col-s-4">First Name</div>
+                                <div class="blank-field col-8 col-s-8">
+                                    <input type="text" id="firstName" name="firstName">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="label col-4 col-s-4">Last Name</div>
+                                <div class="blank-field col-8 col-s-8">
+                                    <input type="text" name="lastName">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="label col-4 col-s-4">Password</div>
+                                <div class="blank-field col-8 col-s-8">
+                                    <input type="password" name="password">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="label col-4 col-s-4">Confirm Password</div>
+                                <div class="blank-field col-8 col-s-8">
+                                    <input type="password" name="confirmPassword">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="label col-4 col-s-4">Address</div>
+                                <div class="blank-field col-8 col-s-8">
+                                    <textarea name="address" rows="10"></textarea>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="label col-4 col-s-4">Phone</div>
+                                <div class="blank-field col-8 col-s-8"><input type="text" name="phone"><span></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="label col-4 col-s-4">Avatar</div>
+                                <div class="blank-field col-8 col-s-8"><input type="text" name="avatar"><span></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="label col-4 col-s-4">Gender</div>
+                                <div class="blank-field col-8 col-s-8">
+                                    <select name="gender">
+                                        <option value="5"> ~~~ Select an option ~~~</option>
+                                        <option value="1">Male</option>
+                                        <option value="0">Female</option>
+                                        <option value="2">Other</option>
+                                    </select><span></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="label col-4 col-s-4">Email</div>
+                                <div class="blank-field col-8 col-s-8"><input type="email" name="email"><span></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="label col-4 col-s-4">Birthday</div>
+                                <div class="blank-field col-8 col-s-8"><input type="date" name="birthday"><span></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="label col-4 col-s-4">Introduction</div>
+                                <div class="blank-field col-8 col-s-8">
+                                    <textarea name="introduction" rows="10"></textarea>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="row button">
+                                <div class="col-6 col-s-6"><input type="button" name="btnSubmit" value="Submit"></div>
+                                <div class="col-6 col-s-6"><input type="reset" name="btnReset" value="Reset"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="empty-col col-2 col-s-2"></div>
+            </div>
+        </div>
     </div>
+    <div class="footer row col-12">&copy; Copyright reserved.</div>
 </div>
-<div class="body col-12 col-s-12 row">
-    <div class="navigation col-3 col-s-3">
-        <ul>
-            <li><a href="register.html">Register</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="#">Create song</a></li>
-            <li><a href="#">Latest song</a></li>
-            <li><a href="#">My songs</a></li>
-        </ul>
-    </div>
-    <div class="main-content col-9 col-s-9">
-        <h1>REGISTER FORM</h1>
-        <form class="register-box">
-            <div>
-                <lable>First name</lable>
-                <input type="text" name="firstName">
-            </div>
-            <div>
-                <lable>Last name</lable>
-                <input type="text" name="lastName">
-            </div>
-            <div>
-                <lable>Password</lable>
-                <input type="text" name="password">
-            </div>
-            <div>
-                <lable>Confirm password</lable>
-                <input type="text" name="confirmPassword">
-            </div>
-            <div>
-                <lable>Address</lable>
-                <textarea name="address" id="address" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <lable>Tel</lable>
-                <input type="text" name="tel">
-            </div>
-            <div>
-                <lable>Avatar</lable>
-                <input type="file" name="avatar">
-            </div>
-            <lable>Gender</lable>
-            <select name="gender">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="others">Others</option>
-            </select>
-            <div>
-                <lable>Email</lable>
-                <input type="text" name="email">
-            </div>
-            <div>
-                <lable>Birthday</lable>
-                <input type="date" name="birthday">
-            </div>
-            <button type="submit" value="submit">Submit</button>
-            <button type="reset" value="reset">Reset</button>
-        </form>
-    </div>
-</div>
-<div class="footer row col-12">&copy; Copyright reserved.</div>
+<script src="../js/js-register.js"></script>
 </body>
 </html>

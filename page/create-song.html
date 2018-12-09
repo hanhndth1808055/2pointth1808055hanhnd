@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Song</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/create-song-style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+<div class="page-wrap">
+    <div class="header row">
+        <div class="logo col-1 col-s-1"><img class="col-12 col-s-12"
+                                             src="../img/logo.png"
+                                             alt="logo"></div>
+        <div class="navigation col-11 col-s-11">
+            <span class="navigation-item col-2 col-s-2"><a class="col-10 col-s-10" href="register.html">Register</a></span>
+            <span class="navigation-item col-2 col-s-2"><a class="col-10 col-s-10" href="login.html">Login</a></span>
+            <span class="navigation-item col-3 col-s-3"><a class="col-10 col-s-10" href="create-song.html">Create song</a></span>
+            <span class="navigation-item col-3 col-s-3"><a class="col-10 col-s-10" href="latest-song.html">Latest song</a></span>
+            <span class="navigation-item col-2 col-s-2"><a class="col-10 col-s-10" href="my-song.html">My songs</a></span>
+        </div>
+    </div>
+    <div class="body col-12 col-s-12 row">
+        <div class="main-content col-12 col-s-12">
+            <div class="headline col-12 col-s-12">
+                <h1><i class="fas fa-music"></i> CREATE & SHARE YOUR FAVOURITE SONG <i class="fas fa-music"></i></h1>
+            </div>
+            <div class="col-12 col-s-12">
+                <div class="empty-col col-2 col-s-2"></div>
+                <div class="wrap-song col-8 col-s-8">
+                    <div class="empty-col col-1 col-s-1"></div>
+                    <div class="create-song col-10 col-s-10">
+                        <div class="description col-12 col-s-12">"Give your friends a chance to taste your favourite
+                        piece of music. Emerge yourself in your own music world and share with your beloved family
+                            and friends."</div>
+                        <form action="" method="post" name="create-song">
+                            <div class="row">
+                                <div class="label col-4 col-s-4">Name</div>
+                                <div class="blank-field col-8 col-s-8">
+                                    <input type="text" id="name" name="name">
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="label col-4 col-s-4">Singer</div>
+                                <div class="blank-field col-8 col-s-8">
+                                    <input type="text" name="singer">
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="label col-4 col-s-4">Author</div>
+                                <div class="blank-field col-8 col-s-8">
+                                    <input type="text" name="author">
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="label col-4 col-s-4">Thumbnail</div>
+                                <div class="blank-field col-8 col-s-8">
+                                    <input type="text" name="thumbnail">
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="label col-4 col-s-4">Link</div>
+                                <div class="blank-field col-8 col-s-8">
+                                    <input type="text" name="link">
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="row button">
+                                <div class="col-6 col-s-6"><input type="button" name="btnSubmit" value="Submit"></div>
+                                <div class="col-6 col-s-6"><input type="reset" name="btnReset" value="Reset"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="empty-col col-2 col-s-2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer row col-12">&copy; Copyright reserved.</div>
+</div>
+<script src="../js/create-song.js"></script>
+</body>
+</html>

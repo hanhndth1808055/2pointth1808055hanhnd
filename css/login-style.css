@@ -1,40 +1,64 @@
 * {
-    font-family: Tahoma, sans-serif;
+    font-family: Arial, sans-serif;
     box-sizing: border-box;
-    color: indigo;
+    color: antiquewhite;
 }
 
 /*For mobile phone*/
 /*Header*/
 .header {
-    background: black;
-    border-radius: 5px;
-    border: 2px solid darkgrey;
-    padding: 2px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.header .navigation {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 div {
-    padding: 5px;
-}
-.header .logo {
-    width: 20%;
-    float: left;
+    border: 1px solid transparent;
 }
 
-.header .logo img {
-    width: 100%;
-    float: left;
+
+body {
+    background-image: url("http://calvinholmesmusic.com/wp-content/uploads/2015/02/web-design-2-calvin-holmes-music-background-v2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.header .banner {
-    width: 80%;
-    float: left;
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
 }
 
-.header .banner img {
-    width: 100%;
-    float: left;
+a:hover {
+    animation: bounce 2s;
 }
+
+.button input:hover {
+    font-weight: bolder;
+}
+
+/*.header .banner {*/
+/*background: url("http://img03.deviantart.net/98a9/i/2009/339/c/b/urban_music_daily_banner_by_dyna_mic.png");*/
+/*background-size: cover;*/
+/*height: 80px;*/
+/*}*/
 
 .row::after {
     content: '';
@@ -44,68 +68,115 @@ div {
 
 /*Body*/
 .navigation {
-    width: 100%;
-    font-size: 14px;
-    float: left;
-    border-radius: 5px;
+    font-size: 16px;
 }
 
-.navigation ul {
-    background-color: white;
-    opacity: 0.8;
-    border-radius: 5px;
+.logo {
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
-.navigation li {
-    background-color: blanchedalmond;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 2px burlywood;
+.logo img {
+    display: none;
+}
+
+.navigation div {
     text-align: center;
-    padding: 5px;
 }
 
 .navigation a {
-    color: midnightblue;
-    text-decoration: none;
+    color: antiquewhite;
     font-weight: bold;
-}
-body .main-content {
-    float: left;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-body .headline {
-    float: left;
-}
-body .headline h1 {
-    font-size: 24px;
     text-align: center;
-    text-shadow: 2px 2px slategrey;
-    background-color: blanchedalmond;
-    box-shadow: 2px 2px burlywood;
-    color: #433142;
-    padding: 5px;
-    border-radius: 4px;
-}
-.main-content .login-part {
-    float: left;
-    width: 100%;
-    padding-bottom: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-.main-content .login-part .login-box {
-    background-color: blanchedalmond;
-    box-shadow: 5px 5px burlywood;
-    width: fit-content;
-    margin: auto;
-    padding: 20px;
+.main-content .headline h1 {
+    font-size: 15px;
     text-align: center;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: antiquewhite;
+    padding: 10px;
 }
+
+.msg-error {
+    color: #f33800;
+    font-size: 15px;
+}
+
+.msg-success {
+    color: rgba(100, 248, 44, 0.87);
+    font-size: 15px;
+}
+
+.main-content .wrap-song {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-content .login-part {
+    font-size: 13px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.main-content .login-part div {
+    text-align: center;
+    padding: 5px;
+
+}
+
+.main-content .label {
+    width: 30%;
+}
+
+.main-content .blank-field {
+    width: 70%;
+}
+
+.main-content .login-part div input,
+.main-content .login-part div textarea,
+.main-content .login-part div select,
+.main-content .login-part label {
+    padding: 2px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, .1);
+}
+
+.wrap-song .description {
+    font-style: italic;
+    font-family: "Bookman Old Style";
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.main-content .login-part row {
+    font-size: 13px;
+}
+.main-content .button div {
+    width: 50%;
+}
+.main-content .login-part [name*='btn'] {
+    border-radius: 25px;
+    border: 1px solid;
+    background: rgba(255, 255, 255, .1);
+}
+
 .footer {
     text-align: center;
+    font-size: 15px;
 }
+
+[class*="col-"] {
+    width: 100%;
+    float: left;
+}
+
 @media only screen and (min-width: 600px) {
     .col-s-1 {
         width: 8.33%;
@@ -159,6 +230,34 @@ body .headline h1 {
         font-size: 15px;
     }
 
+    .main-content .headline h1 {
+        font-size: 25px;
+    }
+
+    .logo img {
+        display: table;
+    }
+
+    .main-content .wrap-song {
+        font-size: 36px;
+    }
+
+    .wrap-song .description {
+        font-size: 20px;
+    }
+
+    .wrap-song .login-part {
+        margin: 0 auto;
+    }
+
+    .main-content .login-part [name*='btn'] {
+        margin: 15px;
+        padding: 10px;
+    }
+
+    .footer {
+        font-size: 23px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -211,6 +310,27 @@ body .headline h1 {
     }
 
     * {
-        font-size: 14px;
+        font-size: 17px;
+    }
+
+    .main-content .headline h1 {
+        font-size: 25px;
+    }
+
+    .main-content .wrap-song {
+        font-size: 36px;
+    }
+
+    .wrap-song .description {
+        font-size: 20px;
+    }
+
+    .main-content .login-part [name*='btn'] {
+        margin: 15px;
+        padding: 10px;
+    }
+
+    .footer {
+        font-size: 23px;
     }
 }

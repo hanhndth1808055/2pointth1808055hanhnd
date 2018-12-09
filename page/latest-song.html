@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login-Form</title>
+    <title>Latest songs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/login-style.css">
+    <link rel="stylesheet" href="../css/latest-song.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
           integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
+<div class="bg"></div>
 <div class="page-wrap">
     <div class="header row">
         <div class="logo col-1 col-s-1"><img class="col-12 col-s-12"
@@ -29,41 +30,33 @@
     <div class="body col-12 col-s-12 row">
         <div class="main-content col-12 col-s-12">
             <div class="headline col-12 col-s-12">
-                <h1><i class="fas fa-music"></i> LOG IN TO YOUR MUSIC WORLD <i class="fas fa-music"></i></h1>
+                <h1><i class="fas fa-music"></i> FEEL THE LATEST SONGS OF YOUR COMMUNITY <i class="fas fa-music"></i>
+                </h1>
             </div>
             <div class="col-12 col-s-12">
-                <div class="empty-col col-3 col-s-3"></div>
-                <div class="wrap-song col-6 col-s-6">
-                    <div class="empty-col col-2 col-s-2"></div>
-                    <div class="login-part col-8 col-s-8">
-                        <form action="#" class="login-box" name="login-box">
-                            <div class="row">
-                                <div class="label col-4 col-s-4">Password</div>
-                                <div class="blank-field col-8 col-s-8">
-                                    <input type="password" name="password">
-                                    <span></span>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="label col-4 col-s-4">E-mail</div>
-                                <div class="blank-field col-8 col-s-8">
-                                    <input type="text" name="email">
-                                    <span></span>
-                                </div>
-                            </div>
-                            <div class="row button">
-                                <div class="col-6 col-s-6"><input type="button" name="btnSubmit" value="Submit"></div>
-                                <div class="col-6 col-s-6"><input type="reset" name="btnReset" value="Reset"></div>
-                            </div>
-                        </form>
+                <div class="empty-col col-1 col-s-1"></div>
+                <div class="wrap-song col-10 col-s-10">
+                    <div class="latest-song col-12 col-s-12">
+                        <div class="list-song" id="list-song">
+
+                        </div>
+                        <div class="button">
+                            <input type="button" id="load-more" value="Load more" name="btnLoadMore">
+                        </div>
+                        <div class="player-poster">
+                        <div class="audio-player">
+                            <audio controls>
+                            </audio>
+                        </div>
+                        </div>
                     </div>
                 </div>
-                <div class="empty-col col-2 col-s-2"></div>
+                <div class="empty-col col-1 col-s-1"></div>
             </div>
         </div>
     </div>
 </div>
 <div class="footer row col-12">&copy; Copyright reserved.</div>
-<script src="../js/js-login.js"></script>
+<script src="../js/latest-song.js"></script>
 </body>
 </html>

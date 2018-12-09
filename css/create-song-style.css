@@ -54,6 +54,12 @@ a:hover {
     font-weight: bolder;
 }
 
+/*.header .banner {*/
+/*background: url("http://img03.deviantart.net/98a9/i/2009/339/c/b/urban_music_daily_banner_by_dyna_mic.png");*/
+/*background-size: cover;*/
+/*height: 80px;*/
+/*}*/
+
 .row::after {
     content: '';
     clear: both;
@@ -113,13 +119,13 @@ a:hover {
     padding-bottom: 20px;
 }
 
-.main-content .register-area {
+.main-content .create-song {
     font-size: 13px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.main-content .register-area div {
+.main-content .create-song div {
     text-align: center;
     padding: 5px;
 
@@ -133,17 +139,11 @@ a:hover {
     width: 70%;
 }
 
-.main-content .register-area div input,
-.main-content .register-area div textarea,
-.main-content .register-area div select,
-.main-content .register-area option,
-.main-content .register-area label {
+.main-content .create-song div input,
+.main-content .create-song label {
     padding: 2px;
     border-radius: 25px;
     background: rgba(255, 255, 255, .1);
-}
-.main-content .register-area option {
-    color: black;
 }
 
 .wrap-song .description {
@@ -153,13 +153,13 @@ a:hover {
     font-size: 15px;
 }
 
-.main-content .register-area row {
+.main-content .create-song row {
     font-size: 13px;
 }
 .main-content .button div {
     width: 50%;
 }
-.main-content .register-area [name*='btn'] {
+.main-content .create-song [name*='btn'] {
     border-radius: 25px;
     border: 1px solid;
     background: rgba(255, 255, 255, .1);
@@ -167,7 +167,6 @@ a:hover {
 
 .footer {
     text-align: center;
-    font-size: 15px;
 }
 
 [class*="col-"] {
@@ -244,17 +243,13 @@ a:hover {
         font-size: 20px;
     }
 
-    .wrap-song .register-area {
+    .wrap-song .create-song {
         margin: 0 auto;
     }
 
-    .main-content .register-area [name*='btn'] {
+    .main-content .create-song [name*='btn'] {
         margin: 15px;
         padding: 10px;
-    }
-
-    .footer {
-        font-size: 23px;
     }
 }
 
@@ -323,12 +318,8 @@ a:hover {
         font-size: 20px;
     }
 
-    .main-content .register-area [name*='btn'] {
+    .main-content .create-song [name*='btn'] {
         margin: 15px;
         padding: 10px;
-    }
-
-    .footer {
-        font-size: 23px;
     }
 }
