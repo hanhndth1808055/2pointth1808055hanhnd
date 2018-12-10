@@ -23,11 +23,10 @@ div {
 
 body {
     background-image: url("http://calvinholmesmusic.com/wp-content/uploads/2015/02/web-design-2-calvin-holmes-music-background-v2.png");
-    background-color: black;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
+    background-size: cover;
 }
 
 @keyframes bounce {
