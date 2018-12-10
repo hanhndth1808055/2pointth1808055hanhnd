@@ -32,16 +32,17 @@ function loadSong() {
                 htmlContent += '<div class="song-name">' + song.name + '</div>';
                 htmlContent += '<div class="song-singer">' + song.singer + '</div>';
                 htmlContent += '</div>';
-                htmlContent += '<div class="song-control" onclick="playSong(\'' + song.link + '\')">Play</div>';
-                htmlContent += `<div class="song-control" onclick="playSong('${song.link}')">Play</div>`;
-                htmlContent += '<div class="song-control" onclick="playSong"></div>';
-                htmlContent += '<div class="song-detail"><a href="#">Detail</a></div>';
+                htmlContent += '<div class="song-control" onclick="playSong(\'' + song.link + '\')"><i class="fas fa-headphones-alt fa-2x"></i></div>';
+                // htmlContent += `<div class="song-control" onclick="playSong('${song.link}')">Play</div>`;
+                // htmlContent += '<div class="song-control" onclick="playSong"></div>';
+                htmlContent += '<div class="song-detail"><a href="#"><i class="fas fa-info-circle fa-2x"></i></a></div>';
+                htmlContent += '<div class="song-download"><a href="\'' + song.link + '\'"><i class="fas fa-download fa-2x"></i></a></div>';
                 htmlContent += '</div>';
             }
             document.getElementById("list-song").innerHTML += htmlContent;
         }
     };
-    xhr.open('GET', 'https://2-dot-backup-server-002.appspot.com/_api/v2/songs/get-mine', true);
+    xhr.open('GET', 'https://2-dot-backup-server-001.appspot.com/_api/v2/songs/get-mine', true);
     xhr.setRequestHeader('Authorization', 'Basic ' + token);
     xhr.send();
 }

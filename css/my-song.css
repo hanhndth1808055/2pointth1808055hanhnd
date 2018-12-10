@@ -111,13 +111,13 @@ a:hover {
     padding-bottom: 20px;
 }
 
-.main-content .latest-song {
+.main-content .my-song {
     font-size: 13px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.main-content .latest-song div {
+.main-content .my-song div {
     text-align: center;
     padding: 5px;
 
@@ -131,10 +131,10 @@ a:hover {
     width: 70%;
 }
 
-.main-content .latest-song div input,
-.main-content .latest-song div textarea,
-.main-content .latest-song div select,
-.main-content .latest-song label {
+.main-content .my-song div input,
+.main-content .my-song div textarea,
+.main-content .my-song div select,
+.main-content .my-song label {
     padding: 2px;
     border-radius: 25px;
     background: rgba(255, 255, 255, .1);
@@ -147,14 +147,14 @@ a:hover {
     font-size: 15px;
 }
 
-.main-content .latest-song {
+.main-content .my-song {
     font-size: 13px;
 }
 .main-content .button div {
     width: 50%;
 }
-.main-content .latest-song [name*='btn'],
-.main-content .latest-song audio {
+.main-content .my-song [name*='btn'],
+.main-content .my-song audio {
     border-radius: 25px;
     border: 1px solid;
     background: rgba(255, 255, 255, .1);
@@ -309,11 +309,11 @@ a:hover {
         font-size: 20px;
     }
 
-    .wrap-song .latest-song {
+    .wrap-song .my-song {
         margin: 0 auto;
     }
 
-    .main-content .latest-song [name*='btn'] {
+    .main-content .my-song [name*='btn'] {
         margin: 15px;
         padding: 10px;
     }
@@ -388,7 +388,7 @@ a:hover {
         font-size: 20px;
     }
 
-    .main-content .latest-song [name*='btn'] {
+    .main-content .my-song [name*='btn'] {
         margin: 15px;
         padding: 10px;
     }

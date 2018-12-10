@@ -31,19 +31,21 @@ function doLogin() {
             alert('Login fails, please try again! Error: ' + responseData.status);
             if (responseData.error.email != null) {
                 var msgEmail = document.forms['login-box']['email'].nextElementSibling;
+                msgEmail.classList.remove('msg-success');
                 msgEmail.classList.add('msg-error');
                 msgEmail.innerHTML = responseData.error.email;
-                document.forms['login-box']['email'].nextElementSibling.innerHTML = responseData.error.email;
+                // document.forms['login-box']['email'].nextElementSibling.innerHTML = responseData.error.email;
             }
             if (responseData.error.password != null) {
                 var msgPassword = document.forms['login-box']['password'].nextElementSibling;
+                msgEmail.classList.remove('msg-success');
                 msgPassword.classList.add('msg-error');
                 msgPassword.innerHTML = responseData.error.password;
-                document.forms['login-box']['password'].nextElementSibling.innerHTML = responseData.error.password;
+                // document.forms['login-box']['password'].nextElementSibling.innerHTML = responseData.error.password;
             }
         }
     };
-    xhr.open('POST', 'https://2-dot-backup-server-002.appspot.com/_api/v2/members/authentication', true);
+    xhr.open('POST', 'https://2-dot-backup-server-001.appspot.com/_api/v2/members/authentication', true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(sendData);
 }

@@ -37,7 +37,7 @@ function loadSong() {
             document.getElementById("list-song").innerHTML += htmlContent;
         }
     };
-    xhr.open('GET', 'https://2-dot-backup-server-002.appspot.com/_api/v2/songs', true);
+    xhr.open('GET', 'https://2-dot-backup-server-001.appspot.com/_api/v2/songs', true);
     xhr.setRequestHeader('Authorization', 'Basic ' + token);
     xhr.send();
 }
