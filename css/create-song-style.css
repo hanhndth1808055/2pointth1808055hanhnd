@@ -23,6 +23,7 @@ div {
 
 body {
     background-image: url("http://calvinholmesmusic.com/wp-content/uploads/2015/02/web-design-2-calvin-holmes-music-background-v2.png");
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

@@ -19,12 +19,14 @@
 div {
     border: 1px solid transparent;
 }
+
 body {
-    background-image: url("http://calvinholmesmusic.com/wp-content/uploads/2015/02/web-design-2-calvin-holmes-music-background-v2.png");
+    background-image: url("https://i.pinimg.com/736x/7a/0f/29/7a0f29293f8f9c53d1220d086232ecea--festival-photography-concert-photography.jpg");
+    background-color: grey;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    height: 100%;
 }
 
 @keyframes bounce {
@@ -191,6 +193,7 @@ a:hover {
 .song-thumbnail {
     float: left;
     width: 12%;
+    display: none;
 }
 .song-thumbnail img {
     width: 100%;
@@ -321,6 +324,16 @@ a:hover {
     .footer {
         font-size: 23px;
     }
+    body {
+        background-image: url("http://calvinholmesmusic.com/wp-content/uploads/2015/02/web-design-2-calvin-holmes-music-background-v2.png");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .song-thumbnail {
+        display: table;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -395,5 +408,15 @@ a:hover {
 
     .footer {
         font-size: 23px;
+    }
+    body {
+        background-image: url("http://calvinholmesmusic.com/wp-content/uploads/2015/02/web-design-2-calvin-holmes-music-background-v2.png");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .song-thumbnail {
+     display: table;
     }
 }
