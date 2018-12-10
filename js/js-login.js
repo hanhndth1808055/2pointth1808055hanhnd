@@ -38,7 +38,7 @@ function doLogin() {
             }
             if (responseData.error.password != null) {
                 var msgPassword = document.forms['login-box']['password'].nextElementSibling;
-                msgEmail.classList.remove('msg-success');
+                msgPassword.classList.remove('msg-success');
                 msgPassword.classList.add('msg-error');
                 msgPassword.innerHTML = responseData.error.password;
                 // document.forms['login-box']['password'].nextElementSibling.innerHTML = responseData.error.password;
