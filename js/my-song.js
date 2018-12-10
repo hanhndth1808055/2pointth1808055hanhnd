@@ -8,10 +8,11 @@ document.addEventListener('DOMContentLoaded', function () {
     loadSong();
 });
 
-function playSong(link) {
+function playSong(link, name, singer) {
     var audioPlayer = document.getElementsByTagName('audio')[0];
     audioPlayer.src = link;
     audioPlayer.play();
+    document.getElementById('song-description').innerHTML = 'Current playing: ' + name + ' by ' + singer;
 }
 
 function loadSong() {
@@ -32,11 +33,11 @@ function loadSong() {
                 htmlContent += '<div class="song-name">' + song.name + '</div>';
                 htmlContent += '<div class="song-singer">' + song.singer + '</div>';
                 htmlContent += '</div>';
-                htmlContent += '<div class="song-control" onclick="playSong(\'' + song.link + '\')"><i class="fas fa-headphones-alt fa-2x"></i></div>';
+                htmlContent += '<div class="song-control" onclick="playSong(\'' + song.link + '\',\'' + song.name + '\',\'' + song.singer + '\')"><i class="fas fa-headphones-alt fa-2x"></i></div>';
                 // htmlContent += `<div class="song-control" onclick="playSong('${song.link}')">Play</div>`;
                 // htmlContent += '<div class="song-control" onclick="playSong"></div>';
                 htmlContent += '<div class="song-detail"><a href="#"><i class="fas fa-info-circle fa-2x"></i></a></div>';
-                htmlContent += '<div class="song-download"><a href="\'' + song.link + '\'"><i class="fas fa-download fa-2x"></i></a></div>';
+                htmlContent += '<div class="song-download"><a href="' + song.link + '"><i class="fas fa-download fa-2x"></i></a></div>';
                 htmlContent += '</div>';
             }
             document.getElementById("list-song").innerHTML += htmlContent;

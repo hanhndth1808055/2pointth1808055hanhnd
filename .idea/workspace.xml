@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f4d32f34-6fdd-40a1-8a8e-f24252c1c236" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/my-song.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/my-song.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/my-song.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/my-song.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/my-song.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/my-song.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +20,7 @@
     <session id="-1468877943">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="10" />
           <entry key="project.open.time.2" value="3" />
@@ -27,38 +30,40 @@
           <entry key="project.open.time.5" value="7" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="36" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="38" />
-          <entry key="html" value="42" />
-          <entry key="js" value="36" />
+          <entry key="css" value="39" />
+          <entry key="html" value="43" />
+          <entry key="js" value="38" />
           <entry key="php" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="38" />
-          <entry key="HTML" value="42" />
-          <entry key="JavaScript" value="36" />
+          <entry key="CSS" value="39" />
+          <entry key="HTML" value="43" />
+          <entry key="JavaScript" value="38" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="4593" />
-          <entry key="html" value="4583" />
-          <entry key="js" value="6713" />
+          <entry key="css" value="4600" />
+          <entry key="html" value="4614" />
+          <entry key="js" value="6860" />
           <entry key="php" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="4593" />
-          <entry key="HTML" value="4584" />
-          <entry key="JavaScript" value="6712" />
+          <entry key="CSS" value="4600" />
+          <entry key="HTML" value="4615" />
+          <entry key="JavaScript" value="6859" />
           <entry key="PLAIN_TEXT" value="14" />
         </counts>
       </usages-collector>
@@ -69,11 +74,51 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page/my-song.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            <state relative-caret-position="-68">
+              <caret line="45" column="79" lean-forward="true" selection-start-line="45" selection-start-column="79" selection-end-line="45" selection-end-column="79" />
               <folding>
                 <element signature="n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/my-song.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/my-song.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1237">
+              <caret line="221" column="20" lean-forward="true" selection-start-line="221" selection-start-column="20" selection-end-line="221" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/js-login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -119,14 +164,14 @@
         <option value="$PROJECT_DIR$/page/latest-song.html" />
         <option value="$PROJECT_DIR$/css/latest-song.css" />
         <option value="$PROJECT_DIR$/css/register-style.css" />
-        <option value="$PROJECT_DIR$/page/my-song.html" />
         <option value="$PROJECT_DIR$/page/login.html" />
         <option value="$PROJECT_DIR$/js/create-song.js" />
-        <option value="$PROJECT_DIR$/js/js-login.js" />
         <option value="$PROJECT_DIR$/js/js-register.js" />
         <option value="$PROJECT_DIR$/js/latest-song.js" />
-        <option value="$PROJECT_DIR$/js/my-song.js" />
+        <option value="$PROJECT_DIR$/js/js-login.js" />
         <option value="$PROJECT_DIR$/css/my-song.css" />
+        <option value="$PROJECT_DIR$/page/my-song.html" />
+        <option value="$PROJECT_DIR$/js/my-song.js" />
       </list>
     </option>
   </component>
@@ -256,11 +301,13 @@
       <workItem from="1544336644076" duration="1299000" />
       <workItem from="1544360708325" duration="11459000" />
       <workItem from="1544408331824" duration="1070000" />
+      <workItem from="1544414129481" duration="269000" />
+      <workItem from="1544419920077" duration="1096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148299000" />
+    <option name="totallyTimeSpent" value="149664000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -273,8 +320,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1081" height="584" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49667406" visible="true" weight="0.27394637" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49667406" visible="true" weight="0.27394637" />
       <window_info id="Structure" order="1" sideWeight="0.50332594" side_tool="true" weight="0.20689656" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -286,7 +334,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32815966" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32815966" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32815966" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -388,13 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/js-login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/create-song-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -412,35 +453,10 @@
     <entry file="file://$PROJECT_DIR$/js/member-information.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/my-song.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/latest-song.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="156" column="32" selection-start-line="156" selection-start-column="27" selection-end-line="156" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/my-song.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6477">
-          <caret line="381" selection-start-line="381" selection-end-line="381" />
         </state>
       </provider>
     </entry>
@@ -451,10 +467,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/js-login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/my-song.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1237">
+          <caret line="221" column="20" lean-forward="true" selection-start-line="221" selection-start-column="20" selection-end-line="221" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/my-song.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/page/my-song.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        <state relative-caret-position="-68">
+          <caret line="45" column="79" lean-forward="true" selection-start-line="45" selection-start-column="79" selection-end-line="45" selection-end-column="79" />
           <folding>
             <element signature="n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
